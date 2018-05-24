@@ -60,7 +60,7 @@ The generated image should include:
 
 Where "photo" is the current photo in the array of `photos` being iterated over.
 
-### Step 4: Styling
+### Step 4: Styling (3 points)
 Modify [src/App.css](src/App.css) to include styling that accomplishes the following:
 
    - cause the header and .collage div to be centered on the page
