@@ -12,7 +12,8 @@ class App extends Component {
   state = {
   }
 
-  // 2. Declare a life cycle method that:
+  // 2. Declare a life cycle method
+  // This life cycle method should:
   //  - will be called after the component is initially rendered
   // - will fetch an array of photos
   // - will add that array of photos to state once received
@@ -22,7 +23,11 @@ class App extends Component {
       <React.Fragment>
         <header>
           <h1>Photo Wall</h1>
-          <p>Start by reading App.jsx and completing the numbered steps. Afterward, delete this paragraph.</p>
+          <p>
+            Start by reading App.jsx and completing the numbered steps.
+            Afterward, delete this paragraph. Then, open up App.css and
+            complete the instructions there.
+          </p>
         </header>
         <div className="collage">
             {/* We use map here because Array.prototype.map is an expression,
