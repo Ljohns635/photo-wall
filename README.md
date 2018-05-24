@@ -1,6 +1,7 @@
 # Assessment: Photo Wall
 
 For this assessment, you'll be creating a photo wall:
+
 ![example output (includes bonus)](screenshots/photo_wall.gif)
 
 Note that the above gif also demonstrates bonus features that are not part of the initial acceptance criteria.
