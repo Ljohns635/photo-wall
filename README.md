@@ -47,12 +47,12 @@ The state object should include an array of photos, which will be iterated over 
 ### Step 2: Declare a life cycle method (3 points)
 
 This life cycle method should:
-- will be called after the component is initially rendered
-- will fetch an array of photos
-- will add that array of photos to state once received
+- be called after the component is initially rendered
+- fetch an array of photos
+- add that array of photos to state once received
 
 
-### Step 3: Ensure a valid images are rendered (3 points)
+### Step 3: Ensure valid images are rendered (3 points)
 The generated images should include:
 - a photo's filename 
 - a photo's id
