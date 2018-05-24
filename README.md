@@ -52,8 +52,8 @@ This life cycle method should:
 - will add that array of photos to state once received
 
 
-### Step 3: Ensure a valid image is rendered (3 points)
-The generated image should include:
+### Step 3: Ensure a valid images are rendered (3 points)
+The generated images should include:
 - a photo's filename 
 - a photo's id
 - a photo's URL
