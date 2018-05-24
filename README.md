@@ -64,7 +64,7 @@ Where "photo" is the current photo in the array of `photos` being iterated over.
 Modify [src/App.css](src/App.css) to include styling that accomplishes the following:
 
    - cause the header and .collage div to be centered on the page
-   - ensure that no more photos appear in a row 
+   - ensure that no more than 4 photos appear in a row 
 
 ## Bonus (0 points)
 
