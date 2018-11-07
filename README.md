@@ -26,21 +26,17 @@ foo@bar:~/react-photo-wall $
 Note `github-username` above. In other words, __don't__ simply copy-paste the
 code above blindly into a terminal. 
 
-Next, you'll need to install dependencies using `yarn`:
-
-```console
-foo@bar:~/react-photo-wall $ yarn
-```
+Next, you'll need to install dependencies.
 
 Before coding, you should ensure that this scaffold works by running the application:
 ```console
-foo@bar:~/react-photo-wall $ yarn start
+foo@bar:~/react-photo-wall $ npm start
 ```
 
 ## Acceptance Criteria
-This particular assessment is plug-and-play. The acceptance criteria are all
-laid out in [src/App.jsx](src/App.jsx) in comments. We've reproduced them
-below for your convenience, though:
+The acceptance criteria are all
+laid out in [src/App.jsx](src/App.jsx) in comments. We've also reproduced them
+below:
 
 ### Step 1: Declare state  (1 point)
 The state object should include an array of photos, which will be iterated over later and displayed to the user in a grid.
@@ -83,7 +79,5 @@ catch up on), you may consider improving the quality in a number of ways:
 
 ## Submission
 
-This morning, you learned how to deploy a React app to GitHub Pages, so you
-__will__ be required to submit a deployed application today. If you instead
-submit a link to a GitHub repository (that is, only code), you _will_ be awarded
-__0__ points.
+You must submit a deployed application url. If you instead
+submit a link to a GitHub repository (that is, only code), you will not receive any points.
