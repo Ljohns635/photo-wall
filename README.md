@@ -2,7 +2,7 @@
 
 For this assessment, you'll be creating a photo wall:
 
-![example output (includes bonus)](screenshots/photo_wall.gif)
+<img src="https://s3.us-east-2.amazonaws.com/files.kenzie.academy/frontend-q2/photo_wall.gif" alt="example output" height="400px" />
 
 Note that the above gif also demonstrates bonus features that are not part of the initial acceptance criteria.
 
