@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 // This URL can be combined with an photo id to fetch an photo.
-const PHOTO_URL = "https://picsum.photos/200?photo=";
+const PHOTO_URL = photoId => `https://picsum.photos/id/${photoId}/200/200`;
 // This URL can be used to get an array of objects that contain information
 // about various photos.
 const PHOTO_LIST_URL = "https://picsum.photos/list";
