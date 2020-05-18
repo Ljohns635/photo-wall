@@ -70,5 +70,4 @@ catch up on), you may consider improving the quality in a number of ways:
 
 ## Submission
 
-You must submit a deployed application url. If you instead
-submit a link to a repository (that is, only code), you will not receive any points.
+Once you finish the assessment please submit only your Gitlab repository URL.
