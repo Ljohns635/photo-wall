@@ -18,7 +18,7 @@ header {
 
 body {
   background-image: url(https://img.freepik.com/free-photo/white-paper-texture-background_33725-57.jpg?size=626&ext=jpg);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* background-position: center; */
   background-position: cover;
   background-size: cover;
