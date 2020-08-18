@@ -24,18 +24,10 @@ class App extends Component {
   componentDidMount() {
     fetch(PHOTO_LIST_URL).then((response) => {
       console.log({ PHOTO_LIST_URL });
-      if (!response.ok) {
-        throw Error("Error fetching the photo");
-      }
-      return response
-        .json()
-        .then((allData) => {
-          this.setState({ photos: allData });
-          console.log(this.state.photos);
-        })
-        .catch((err) => {
-          throw Error(err.message);
-        });
+      return response.json().then((allData) => {
+        this.setState({ photos: allData });
+        console.log(this.state.photos);
+      });
     });
   }
 
