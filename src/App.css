@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 /* 6. Write CSS rules that cause the header and .collage div to be centered on the page */
+header {
+  margin: 0;
+  padding: 0;
+  font-family: "Special Elite", cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.collage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/white-paper-texture-background_33725-57.jpg?size=626&ext=jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-position: cover;
+  background-size: cover;
+}
 
 /* 7. Write CSS rules that ensure that no more than 4 photos appear on a row */
+img {
+  width: 100px;
+  flex-basis: 20%;
+  padding: 10px;
+}

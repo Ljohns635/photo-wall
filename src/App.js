@@ -45,11 +45,6 @@ class App extends Component {
       <React.Fragment>
         <header>
           <h1>Photo Wall</h1>
-          <p>
-            Start by reading App.jsx and completing the numbered steps.
-            Afterward, delete this paragraph. Then, open up App.css and complete
-            the instructions there.
-          </p>
         </header>
         <div className="collage">
           {/* We use map here because Array.prototype.map is an expression,
